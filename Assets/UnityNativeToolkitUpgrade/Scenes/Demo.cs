@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,6 +9,12 @@ public class Demo : MonoBehaviour {
 
     void Start() {
         NativeToolkit.OnImagePicked += ImagePicked;
+    }
+
+    private void OnGUI() {
+        if (GUILayout.Button("Request Permission")) {
+            Permission.RequestUserPermission(Permission.ExternalStorageRead);
+        }
     }
 
     public void OnPickImagePress() {
