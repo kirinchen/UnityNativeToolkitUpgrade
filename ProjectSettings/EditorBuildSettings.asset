@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Plugins/UnityNativeToolkitUpgrade/Scenes/SampleScene.unity
+    path: Assets/UnityNativeToolkitUpgrade/Scenes/SampleScene.unity
     guid: 3c3488827c496634691141e80796a915
   m_configObjects: {}
