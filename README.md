@@ -11,3 +11,7 @@ Upgrade for new Unity Version 2019.x
 ## Upgrade Feture :
 
 1. Pick Image : use new RequestingPermissions (https://docs.unity3d.com/Manual/android-RequestingPermissions.html)
+
+## Download Unity Plugin
+
+https://github.com/kirinchen/UnityNativeToolkitUpgrade/blob/master/NativeToolkit.unitypackage
